@@ -1,0 +1,15 @@
+= OPA Authorizer for Apache NiFi
+
+== Usage
+
+This project is not currently in a state where it would be useful to give usage advice.
+The code will evolve quickly and break often, if you are interested in using this, I am afraid you will have to look at the code and know what you are doing.
+
+That being said, as soon as this reaches a sort of stable state I will add information here.
+
+=== OPA
+
+Currently expects that Open Policy Agent is serving group mappings on `http://localhost:8181/v1/data/app/rbac/get_groups`. Run `opa run --server example.rego` in the repo folder to test an initial example.
+
+If you want to override this default you can do this by defining a fully qualified opa uri (including rule) in the env var `NIFI_OPA_URI`.
+
