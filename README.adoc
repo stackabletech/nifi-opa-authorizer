@@ -1,3 +1,6 @@
+WARNING: This repository has been archived, as there now is a useable Opa Authorizer for NiFi here: https://github.com/DavidGitter/nifi-opa-plugin
+
+
 = OPA Authorizer for Apache NiFi
 
 == Usage
